@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lekcja 3 - Kolory, tabele i przyciski </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- 1 -->
+    <section class="bg-info text-white p-5 text-center">
+        <div class="container">
+            <h1 class="display-4">Lekcja 3</h1>
+            <p class="lead">Kolory, tabele i przyciski </p>
+            <a class="btn btn-dark btn-lg" href="#content" role="button">Dowiedz się więcej</a>
+        </div>
+    </section>
+
+    <!-- 2 -->
+    <section id="content" class="p-5">
+        <div class="container">
+            <h2>Kolory w Bootstrap</h2>
+            <div class="row text-center">
+                <div class="col-md-2 bg-primary text-white p-3">Pierwszy</div>
+                <div class="col-md-2 bg-secondary text-white p-3">Drugi</div>
+                <div class="col-md-2 bg-success text-white p-3">Sukces</div>
+                <div class="col-md-2 bg-danger text-white p-3">Niebezpieczeństwo</div>
+                <div class="col-md-2 bg-warning text-dark p-3">Ostrzeżenie</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3 -->
+    <section class="p-5 bg-light">
+        <div class="container">
+            <h2>Produkty</h2>
+            <table class="table table-striped table-bordered table-hover">
+                <thead class="table-dark">
+                    <tr>
+                        <th>#</th>
+                        <th>Nazwa</th>
+                        <th>Cena</th>
+                        <th>Ilość</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Arena Cobra Ultra Swipe Mirror</td>
+                        <td>259,99 PLN</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Speedo Fastskin Hyper Elite Mirror</td>
+                        <td>229,99 PLN</td>
+                        <td>13</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>TYR TRACER-X ELITE GOOGLES</td>
+                        <td>359,99 PLN</td>
+                        <td>5</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- 4 -->
+    <section class="p-5">
+        <div class="container">
+            <h2>Galeria Obrazów</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/350" alt="o1" class="img-fluid img-thumbnail rounded">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/350" alt="o2" class="img-fluid img-thumbnail rounded">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/350" alt="o3" class="img-fluid img-thumbnail rounded">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5 -->
+    <section class="p-5 bg-light">
+        <div class="container">
+            <h2>Alerty</h2>
+            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                <strong>Sukces!</strong
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Ostrzeżenie!</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                <strong>Błąd!</strong>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6 -->
+    <section class="p-5">
+        <div class="container">
+            <h2>Przyciski</h2>
+            <button class="btn btn-primary btn-lg me-2"><i class="bi bi-plus"></i> Duży</button>
+            <button class="btn btn-secondary btn-sm me-2"><i class="bi bi-check"></i> Mały</button>
+            <button class="btn btn-success me-2">Średni</button>
+        </div>
+    </section>
+
+    <!-- 7 -->
+    <section class="p-5 bg-light">
+        <div class="container">
+            <h2>Grupy przycisków</h2>
+            <div class="btn-group me-3" role="group" aria-label="Grupa przycisków">
+                <button type="button" class="btn btn-danger">Lewo</button>
+                <button type="button" class="btn btn-warning">Środek</button>
+                <button type="button" class="btn btn-success">Prawo</button>
+            </div>
+
+            <div class="btn-group-vertical" role="group" aria-label="Grupa przycisków pionowych">
+                <button type="button" class="btn btn-primary">Góra</button>
+                <button type="button" class="btn btn-secondary">Środek</button>
+                <button type="button" class="btn btn-info">Dół</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8 -->
+    <section class="p-5">
+        <div class="container">
+            <h2>Odznaki</h2>
+            <ul class="list-group">
+                <li class="list-group-item">Wiadomości <span class="badge bg-primary rounded-pill">12</span></li>
+                <li class="list-group-item">Powiadomienia <span class="badge bg-danger rounded-pill">8</span></li>
+                <li class="list-group-item">Zadania <span class="badge bg-success rounded-pill">5</span></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- 9 -->
+    <section class="p-5 bg-light">
+        <div class="container">
+            <h2>Paski postępu</h2>
+            <div class="progress mb-3">
+                <div class="progress-bar" role="progressbar" style="width: 37%;">37%</div>
+            </div>
+            <div class="progress mb-3">
+                <div class="progress-bar bg-success" role="progressbar" style="width: 68%;">68%</div>
+            </div>
+            <div class="progress">
+                <div class="progress-bar bg-warning" role="progressbar" style="width: 99%;">99%</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10 -->
+    <section class="p-5">
+        <div class="container">
+            <h2>Spinnery</h2>
+            <div class="d-flex gap-3">
+                <div class="spinner-border text-primary" role="status"></div>
+                <div class="spinner-border text-danger" role="status"></div>
+                <div class="spinner-border text-success" role="status"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11 -->
+    <section class="p-5 bg-light">
+        <div class="container">
+            <h2>Paginacja</h2>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item"><a class="page-link" href="#">Poprzednia</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">Następna</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
